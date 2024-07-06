@@ -1,6 +1,3 @@
-
-
-
 all: config build
 
 config:
@@ -10,7 +7,7 @@ config:
 
 build:
 	@echo "[!] Creating production build ..."
-	yarn install
+	yarn install --no-lockfile
 	yarn build
 
 deploy:
