@@ -7,7 +7,7 @@ config:
 
 build:
 	@echo "[!] Creating production build ..."
-	yarn install --no-lockfile
+	yarn install --no-lockfile && \
 	yarn build
 
 deploy:
