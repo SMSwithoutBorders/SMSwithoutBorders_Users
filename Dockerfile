@@ -1,5 +1,5 @@
 # use node alpine as base image
-FROM node:22-alpine as base
+FROM node:20-alpine as base
 # install system build dependencies
 RUN apk add --no-cache \
     make \
